@@ -11,6 +11,7 @@ This collection of tutorials gives an introduction to [VMF](https://github.com/m
 - [Defining your first model](https://github.com/miho/VMF-Tutorials/blob/master/VMF-Tutorial-01/README.md)
 - [Using the Change Notification API](https://github.com/miho/VMF-Tutorials/blob/master/VMF-Tutorial-02/README.md)
 - [Containment References](https://github.com/miho/VMF-Tutorials/tree/master/VMF-Tutorial-03/README.md)
+- [Cross References](https://github.com/miho/VMF-Tutorials/tree/master/VMF-Tutorial-03b/README.md)
 - [Undo/Redo API](https://github.com/miho/VMF-Tutorials/tree/master/VMF-Tutorial-04/README.md)
 - [Using the Builder API](https://github.com/miho/VMF-Tutorials/tree/master/VMF-Tutorial-05/README.md)
 - [Object Graph Traversal and Custom Property Order](https://github.com/miho/VMF-Tutorials/tree/master/VMF-Tutorial-06/README.md)
@@ -21,6 +22,7 @@ This collection of tutorials gives an introduction to [VMF](https://github.com/m
 - [Annotations](https://github.com/miho/VMF-Tutorials/tree/master/VMF-Tutorial-11/README.md)
 - [Cloning (Deep Copy & Shallow Copy)](https://github.com/miho/VMF-Tutorials/tree/master/VMF-Tutorial-12/README.md)
 - [The Reflection API](https://github.com/miho/VMF-Tutorials/tree/master/VMF-Tutorial-13/README.md)
+- [Custom Model Documentation](https://github.com/miho/VMF-Tutorials/tree/master/VMF-Tutorial-14/README.md)
 
 
 ## Introduction
@@ -30,6 +32,7 @@ This collection of tutorials gives an introduction to [VMF](https://github.com/m
 - getters and setters
 - default values
 - containment
+- cross refrences
 - builder API
 - equals() and hashCode()
 - deep and shallow cloning

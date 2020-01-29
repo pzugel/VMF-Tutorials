@@ -1,12 +1,13 @@
 package eu.mihosoft.vmf.tutorial12.vmfmodel;
 
-import eu.mihosoft.vmf.core.*;
+import eu.mihosoft.vmf.core.DelegateTo;
+import eu.mihosoft.vmf.core.VMFEquals;
 
+@VMFEquals
 interface Store {
 
     String getId();
 
-    @Contains(opposite="parent")
     Item[] getItems();
 
     @DelegateTo(className="eu.mihosoft.vmf.tutorial12.StoreDelegate")
@@ -14,12 +15,10 @@ interface Store {
 
 }
 
+@VMFEquals
 interface Item {
 
     String getId();
-
-    @Container(opposite="items")
-    Store getParent();
 
     @DelegateTo(className="eu.mihosoft.vmf.tutorial12.ItemDelegate")
     String toString();
